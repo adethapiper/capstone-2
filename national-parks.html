@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>National Parks</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.classless.min.css"
+    />
+  </head>
+  <body>
+    <main>
+      <h1>National Parks</h1>
+      <label for="parkLocationsDropDown">Locations</label
+      ><select id="parkLocationsDropDown">
+        <option value="">Select...</option>
+      </select>
+      <button type="button" id="locationDropDownResults">Show Locations</button>
+      <label for="parkTypeDropDown">Park Types</label
+      ><select id="parkTypeDropDown">
+        <option value="">Select...</option>
+      </select>
+      <button type="button" id="typeDropDownResults">Show Types</button>
+      <table id="peoplesInfoTH">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Address</th>
+            <th>City</th>
+            <th>State</th>
+            <th>Zip</th>
+            <th>Phone</th>
+            <th>Website</th>
+          </tr>
+        </thead>
+        <tbody id="peoplesInfoBody"></tbody>
+      </table>
+    </main>
+    <script src="scripts/locationData.js"></script>
+    <script src="scripts/parkTypeData.js"></script>
+    <script src="scripts/nationalParkData.js"></script>
+    <script src="scripts/national-parks.js"></script>
+    
+  </body>
+</html>
