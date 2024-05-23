@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mountains</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.classless.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Mountains Info</title>
+    </header>
+    <main>
+      <h1>Mountains</h1>
+      <!-- Dropdown Options -->
+      <label for="mountainsListDropDown">Select Image</label>
+      <select id="mountainsListDropDown">
+        <option value="">Select a mountain</option>
+      </select>
+      <!-- Dropdown Button -->
+      <button id="mountainsButton">Show Mountain Info</button>
+      <!-- Display -->
+      <div id="mountainsPhotoDisplay"></div>
+      <div id="mountainsListInfoDisplay"></div>
+    </main>
+    <script src="scripts/mountainData.js"></script>
+    <script src="scripts/mountains.js"></script>
+  </body>
+</html>
